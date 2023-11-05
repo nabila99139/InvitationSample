@@ -2,12 +2,6 @@ import { useNavigate } from "react-router-dom";
 import React, { useState, useRef } from "react";
 import weddingMusic from "../styles/music.mp3";
 import weddingImage2 from "../styles/images/brave2.jpeg";
-import weddingImage3 from "../styles/images/brave3.jpeg";
-import weddingImage4 from "../styles/images/brave4.jpeg";
-import weddingImage5 from "../styles/images/brave5.jpeg";
-import weddingImage6 from "../styles/images/brave6.jpeg";
-import weddingImage7 from "../styles/images/brave7.jpeg";
-
 import Image1 from "../styles/images/1.jpg";
 import Image2 from "../styles/images/2.jpg";
 import Image3 from "../styles/images/3.jpg";
