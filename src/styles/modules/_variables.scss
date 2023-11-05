@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+
+$font-cursive-satisfy: 'Satisfy', cursive;
+$font-cursive-clicker: 'Clicker Script', cursive;
+$font-normal: 'Sans Seif';
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

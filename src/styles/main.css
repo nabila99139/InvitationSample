@@ -1,0 +1,928 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap");
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.layer1 {
+  flex: none;
+  position: fixed;
+  width: 830px;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.212), rgb(10, 10, 12));
+}
+.layer1 .cover {
+  margin: 50px 0 0 30px;
+  width: 650px;
+  line-height: 1.5;
+}
+.layer1 .cover .judul1 {
+  margin-bottom: 10px;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+.layer1 .cover .nama-pasangan {
+  font-family: "Satisfy", cursive;
+  font-size: 70px;
+  color: #fff;
+  font-weight: 300;
+}
+.layer1 .cover .quotes {
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.invitation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 1;
+  overflow-y: auto;
+  background-position-y: -100px;
+  background-image: url(images/brave.jpeg);
+}
+.invitation .image-container {
+  position: relative;
+  display: inline-block;
+}
+.invitation .image-container .image {
+  height: 100vh;
+  width: 500px;
+  background-image: url(images/brave.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -10px;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.7);
+}
+.invitation .image-container .judul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+.invitation .image-container .judul h1 {
+  font-size: 35px;
+  color: #fff;
+  font-family: "Satisfy", cursive;
+}
+.invitation .image-container .judul h3 {
+  font-size: 15px;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+.invitation .image-container button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 17px;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  background-color: rgba(115, 123, 129, 0.507);
+  padding: 10px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+.invitation .image-container button:hover {
+  background-color: rgba(14, 16, 17, 0.486);
+}
+.invitation .image-container .frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.541);
+  color: #fff;
+  line-height: 1.3;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.content {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  align-items: center;
+}
+.content .image-container {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  height: 650px;
+  margin-bottom: 100px;
+  flex-shrink: 0;
+}
+.content .image-container .image {
+  width: 700px;
+  height: auto;
+  transform: translate(-20px, -200px);
+}
+.content .image-container .judul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  top: 300px;
+  transform: translateX(-50%);
+  letter-spacing: 2px;
+  line-height: 1.2;
+  font-size: 35px;
+  color: #fff;
+  font-family: "Satisfy", cursive;
+}
+.content .image-container .frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.541);
+  color: #fff;
+  line-height: 1.3;
+  font-weight: 100;
+  letter-spacing: 0.8px;
+  font-size: 14px;
+  text-align: center;
+}
+.content .image-container .frame p {
+  margin: 30px;
+}
+.content .image-container button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  top: 220px;
+  transform: translateX(-50%);
+  font-size: 17px;
+  border-radius: 30px;
+  background-color: rgba(115, 123, 129, 0.507);
+  padding: 10px 30px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+.content .image-container button:hover {
+  background-color: rgba(14, 16, 17, 0.486);
+}
+.content .quotes-container {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 800px;
+  width: 100%;
+  background-color: #cccccc;
+  padding: 30px;
+}
+.content .quotes-container .box {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+  width: 450px;
+  background-color: #A0AEC0;
+  border-radius: 20px;
+  box-shadow: #A0AEC0 3px;
+}
+.content .quotes-container .box .image {
+  background-image: url(images/brave.jpeg);
+  height: 400px;
+  width: 200px;
+  background-size: cover;
+  border-radius: 48% 48% 8px 8px;
+  margin-top: 20px;
+}
+.content .quotes-container .box .frame {
+  top: 80%;
+  width: 100%;
+  color: #fff;
+  line-height: 1.3;
+  font-weight: 100;
+  letter-spacing: 0.8px;
+  font-size: 14px;
+  text-align: center;
+}
+.content .quotes-container .box .frame p {
+  margin: 30px;
+}
+.content .profile-text .frame {
+  width: 100%;
+  color: #292929;
+  line-height: 1.3;
+  font-weight: 100;
+  letter-spacing: 0.8px;
+  font-size: 14px;
+  text-align: center;
+}
+.content .profile-text .frame p {
+  margin: 30px;
+}
+.content .profile-container {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+  width: 100%;
+  padding: 30px;
+}
+.content .profile-container .bg {
+  background-color: #A0AEC0;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 20px 0;
+  position: absolute;
+  z-index: -1;
+}
+.content .profile-container .profile-group .profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+.content .profile-container .profile-group .profile .image {
+  background-image: url(images/brave.jpeg);
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.content .profile-container .profile-group .profile .nama {
+  text-align: center;
+  color: #383838;
+  margin-top: 10px;
+}
+.content .profile-container .profile-group .profile .keterangan {
+  text-align: center;
+  color: #383838;
+}
+.content .profile-container .profile-group .profile .button-profile {
+  margin-top: 10px;
+  font-size: 15px;
+  border-radius: 30px;
+  background-color: rgba(115, 123, 129, 0.507);
+  padding: 10px 30px;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+.content .profile-container .profile-group .profile .button-profile:hover {
+  background-color: rgba(14, 16, 17, 0.486);
+}
+.content .story-container {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  width: 400px;
+  background-color: rgba(115, 123, 129, 0.507);
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.content .story-container .image {
+  background-image: url(images/brave.jpeg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  border-radius: 30px;
+}
+.content .story-container h3 {
+  margin: 20px 0;
+  color: #fff;
+}
+.content .story-container button {
+  margin-top: 10px;
+  font-size: 15px;
+  border-radius: 30px;
+  background-color: rgba(115, 123, 129, 0.507);
+  padding: 10px 30px;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+.content .story-container button:hover {
+  background-color: rgba(14, 16, 17, 0.486);
+}
+.content .date-container {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 750px;
+  width: 100%;
+  background-color: rgba(115, 123, 129, 0.507);
+  margin-top: 50px;
+  margin-top: 50px;
+  padding: 30px;
+}
+.content .date-container .date-group {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 780px;
+  width: 90%;
+  background-color: rgba(115, 123, 129, 0.507);
+  border-radius: 20px;
+}
+.content .date-container .date-group .judul-group {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  width: 80%;
+  background-color: rgba(115, 123, 129, 0);
+  font-size: larger;
+  color: #fff;
+}
+.content .date-container .date-group .date-block {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 500px;
+  width: 80%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.content .date-container .date-group .date-block .image {
+  background-image: url(images/brave7.jpeg);
+  height: 1000px;
+  width: 100%;
+  background-size: cover;
+  opacity: 70%;
+}
+.content .date-container .date-group .date-block .keterangan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  top: 20%;
+  width: 100%;
+  transform: translateX(-50%);
+}
+.content .date-container .date-group .date-block .keterangan .judul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  top: -100px;
+  transform: translateX(-50%);
+  letter-spacing: 2px;
+  line-height: 1.2;
+  font-size: 25px;
+  color: #fff;
+  font-family: "Satisfy", cursive;
+}
+.content .date-container .date-group .date-block .keterangan .frame {
+  top: -600px;
+  width: 100%;
+  color: #fff;
+  font-weight: 100;
+  font-size: 14px;
+  text-align: center;
+  margin-top: -30px;
+}
+.content .date-container .date-group .date-block .keterangan2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+}
+.content .date-container .date-group .date-block .keterangan2 .judul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  top: -100px;
+  transform: translateX(-50%);
+  letter-spacing: 2px;
+  line-height: 1.2;
+  font-size: 25px;
+  color: #fff;
+  font-family: "Satisfy", cursive;
+}
+.content .date-container .date-group .date-block .keterangan2 .frame {
+  top: -600px;
+  width: 100%;
+  color: #fff;
+  font-weight: 100;
+  font-size: 14px;
+  text-align: center;
+  margin-top: -30px;
+}
+.content .date-container .date-group .date-block .tombol-keterangan-group {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  width: 40%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 400px;
+}
+.content .date-container .date-group .date-block .tombol-keterangan-group button {
+  font-size: 14px;
+  border-radius: 30px;
+  background-color: rgba(115, 123, 129, 0.507);
+  padding: 10px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+.content .date-container .date-group .date-block .tombol-keterangan-group button:hover {
+  background-color: rgba(14, 16, 17, 0.486);
+}
+.content .formulir-container {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 400px;
+  width: 85%;
+  background-color: rgba(81, 91, 99, 0.507);
+  border-radius: 20px;
+  padding: 30px;
+}
+.content .formulir-container form {
+  display: flex;
+  flex-direction: column;
+}
+.content .formulir-container form label {
+  margin-top: 10px;
+  width: 400px;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.content .formulir-container form input,
+.content .formulir-container form textarea,
+.content .formulir-container form select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #363636;
+}
+.content .formulir-container form button {
+  font-size: 14px;
+  background-color: rgba(99, 122, 139, 0.507);
+  font-weight: 600;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  align-self: center;
+  cursor: pointer;
+  align-self: flex-end;
+  /* Pindahkan tombol ke kiri */
+  margin-bottom: 10px;
+}
+.content .formulir-container form button:hover {
+  background-color: rgba(44, 66, 77, 0.486);
+}
+.content .video-container {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 800px;
+  width: 100%;
+  background-color: rgba(81, 91, 99, 0.507);
+  margin-top: 50px;
+  padding: 30px;
+  background-image: url(images/brave3.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.content .video-container .video {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 85%;
+  padding-top: 56.25%;
+  /* rasio aspek video 16:9 = 56.25% */
+}
+.content .video-container .video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  border-radius: 20px;
+}
+.content .video-container .video button {
+  font-size: 14px;
+  background-color: rgba(99, 122, 139, 0.507);
+  font-weight: 600;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  align-self: center;
+  cursor: pointer;
+  align-self: flex-end;
+  /* Pindahkan tombol ke kiri */
+  margin-bottom: 10px;
+}
+.content .video-container .video button:hover {
+  background-color: rgba(44, 66, 77, 0.486);
+}
+.content .video-container .gift {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 350px;
+  margin-top: 20px;
+}
+.content .video-container .gift .frame {
+  top: -600px;
+  width: 100%;
+  color: #252323;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  margin-top: -30px;
+}
+.content .video-container button {
+  font-size: 14px;
+  background-color: rgba(99, 122, 139, 0.507);
+  font-weight: 600;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  align-self: center;
+  cursor: pointer;
+  /* Pindahkan tombol ke kiri */
+  margin-bottom: 10px;
+}
+.content .video-container button:hover {
+  background-color: rgba(44, 66, 77, 0.486);
+}
+.content .gallery-container {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.content .gallery-container .slider {
+  position: relative;
+  height: auto;
+  width: 80%;
+  overflow: hidden;
+}
+.content .gallery-container .slider .images {
+  display: flex;
+  width: 100%;
+}
+.content .gallery-container .slider .images img {
+  height: auto;
+  width: 100%;
+  transition: all 0.15s ease;
+}
+.content .gallery-container .slider .images input {
+  display: none;
+}
+.content .gallery-container .slider .dots {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.content .gallery-container .slider .dots label {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: solid rgb(99, 122, 139) 2px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  margin: 5px;
+}
+.content .gallery-container .slider .dots label:hover {
+  background: rgba(99, 122, 139, 0.219);
+}
+.content .gallery-container .slider #img1:checked ~ .m1 {
+  margin-left: 0;
+}
+.content .gallery-container .slider #img2:checked ~ .m2 {
+  margin-left: -100%;
+}
+.content .gallery-container .slider #img3:checked ~ .m3 {
+  margin-left: -200%;
+}
+.content .gallery-container .slider #img4:checked ~ .m4 {
+  margin-left: -300%;
+}
+.content .comment-container {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 900px;
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px;
+  background-image: url(images/brave7.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+.content .comment-container .judul-container {
+  position: relative;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+.content .comment-container .judul h1 {
+  font-size: 35px;
+  color: #fff;
+  font-family: "Satisfy", cursive;
+}
+.content .comment-container .judul h4 {
+  font-size: 15px;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+.content .comment-container .comment form {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  line-height: 2;
+}
+.content .comment-container .comment form input,
+.content .comment-container .comment form textarea,
+.content .comment-container .comment form select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.content .comment-container .comment form button {
+  font-size: 17px;
+  background-color: rgba(115, 123, 129, 0.507);
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  align-self: center;
+}
+.content .comment-container .comment form button:hover {
+  background-color: rgba(14, 16, 17, 0.486);
+}
+.content .comment-container .message {
+  display: flex;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  height: auto;
+  width: 60%;
+}
+.content .comment-container .message .user-profile {
+  width: 50px;
+  height: 50px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.content .comment-container .message .comment-text {
+  flex: 1;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 5px 20px;
+}
+.content .comment-container .message .comment-text p {
+  margin: 0;
+  color: rgb(36, 34, 34);
+  text-align: left;
+  font-size: 14px;
+}
+.content .footer-container {
+  height: auto;
+  background-color: rgba(81, 91, 99, 0.507);
+  padding: 50px;
+}
+.content .footer-container .frame {
+  width: 500px;
+  color: #fff;
+  line-height: 1.3;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  text-align: center;
+}
+.content .music-container {
+  width: 100%;
+  text-align: center;
+  margin: 30px 0;
+}
+.content .music-container button {
+  font-size: 17px;
+  border-radius: 30px;
+  background-color: rgba(115, 123, 129, 0.507);
+  padding: 10px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+.content .music-container button:hover {
+  background-color: rgba(14, 16, 17, 0.486);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  border: none;
+  background: transparent;
+}
+
+.div-left {
+  flex: none;
+  width: 830px;
+  height: 100vh;
+  background-image: url(images/brave.jpeg);
+  background-size: cover;
+  background-position-y: -100px;
+  color: #e0e0e0;
+  position: fixed;
+  left: 0;
+}
+
+.div-right {
+  flex: 1;
+  height: auto;
+  overflow-y: auto;
+  margin-left: 830px;
+  background-position-y: -100px;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}/*# sourceMappingURL=main.css.map */
