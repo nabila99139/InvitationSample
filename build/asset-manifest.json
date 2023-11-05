@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e7fd91cf.css",
+    "main.js": "/static/js/main.d7afb19b.js",
+    "static/media/music.mp3": "/static/media/music.d4d73a111fd2f06043e1.mp3",
+    "static/media/3.jpg": "/static/media/3.1b6a3095960e226eaec9.jpg",
+    "static/media/2.jpg": "/static/media/2.bd967ed2cc06bfe74e7c.jpg",
+    "static/media/1.jpg": "/static/media/1.23cb07a518798d0ba721.jpg",
+    "static/media/brave5.jpeg": "/static/media/brave5.21a2ece6c91e43572939.jpeg",
+    "static/media/4.jpg": "/static/media/4.e0a776049811d5fc1bec.jpg",
+    "static/media/brave6.jpeg": "/static/media/brave6.b3c01382a3f0d2c7c551.jpeg",
+    "static/media/brave4.jpeg": "/static/media/brave4.323238b048fbc2dea517.jpeg",
+    "static/media/brave.jpeg": "/static/media/brave.b6e718f8acfa80305e7a.jpeg",
+    "static/media/brave3.jpeg": "/static/media/brave3.120ce6e704803054adca.jpeg",
+    "static/media/brave7.jpeg": "/static/media/brave7.f4a3602e0bf85cef92e2.jpeg",
+    "static/media/brave2.jpeg": "/static/media/brave2.0bb58e545b004d675093.jpeg",
+    "index.html": "/index.html",
+    "main.e7fd91cf.css.map": "/static/css/main.e7fd91cf.css.map",
+    "main.d7afb19b.js.map": "/static/js/main.d7afb19b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7fd91cf.css",
+    "static/js/main.d7afb19b.js"
+  ]
+}
